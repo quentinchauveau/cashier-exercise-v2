@@ -47,8 +47,8 @@ username: root
 password: root
 ```
 
-Attention, tout le code pour se connecter à la bdd à été commenté.
-Toutes le code pour transformer un model en entité de bdd à été commenté.
+Attention, tout le code pour se connecter à la bdd a été commenté.
+Tout le code pour transformer un model en entité de bdd a été commenté.
 Il faudra réactiver le code relatif à typeOrm et recoder les entités pour pouvoir faire la suite.
 
 Ensuite, si le fichier de migration n'existe pas (/migrations/xxxxx-init.ts), il faut le générer:

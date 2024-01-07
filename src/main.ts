@@ -11,10 +11,7 @@ async function bootstrap() {
     AppModule,
     new FastifyAdapter(),
   );
-  console.log(__dirname);
- 
   const dirname = __dirname.replace('/dist', '');
-  console.log(dirname);
   app.useStaticAssets({
     root: join(dirname, '..', 'public'),
     prefix: '/public/',
